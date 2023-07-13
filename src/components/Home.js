@@ -1,5 +1,7 @@
+import BookList from './Booklist';
+
 function Home() {
-  return <h1>Welcome</h1>;
+  return <BookList />;
 }
 
 export default Home;
