@@ -1,7 +1,13 @@
 import BookList from './Booklist';
+import NewBook from './Newbook';
 
 function Home() {
-  return <BookList />;
+  return (
+    <>
+      <BookList />
+      <NewBook />
+    </>
+  );
 }
 
 export default Home;
