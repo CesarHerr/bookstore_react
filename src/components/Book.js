@@ -4,7 +4,7 @@ function Book({ name, categories, author }) {
   return (
     <li>
       <span>{categories}</span>
-      <h1>{name}</h1>
+      <h2>{name}</h2>
       <p>{author}</p>
 
       <button type="button">Remove</button>
