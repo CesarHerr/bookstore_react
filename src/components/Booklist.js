@@ -6,13 +6,13 @@ function BookList() {
   const { booksList } = useSelector((state) => state.books);
   return (
     <ul>
-      console.log(books)
-      {booksList.map((book) => (
+      {booksList.map((book, index) => (
         <Book
           key={book.item_id}
           name={book.title}
           author={book.author}
           categories={book.category}
+          index={index}
         />
       ))}
     </ul>
