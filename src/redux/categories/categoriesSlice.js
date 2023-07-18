@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  status: [],
+  categories: [],
+  status: ''
 };
 
 const categoriesSlice = createSlice({
