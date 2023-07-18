@@ -69,11 +69,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="live-demo"></a>
 
-
-- coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +143,7 @@ no test
 You can deploy this project using:
 
 
-[Implementation](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/project_init_project_wth_comps_v3_0.md) 
+[Implementation](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/add_reducers_an_actions_v2.md) 
 
 
 
@@ -172,7 +168,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add reducers and actions.
+
 - Use Redux in React components.
 - Connect to API.
 - Styling.
