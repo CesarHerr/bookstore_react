@@ -5,8 +5,8 @@ export default function ErrorPage() {
 
   return (
     <div id="error-page">
+      <p>{error.statusText || error.message}</p>
       <img src="https://http.cat/404" alt="not found" />
-      <i>{error.statusText || error.message}</i>
     </div>
   );
 }
