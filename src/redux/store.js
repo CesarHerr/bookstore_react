@@ -6,8 +6,7 @@ import { apiBookReducer } from './apiBook/apiBookSlice';
 const store = configureStore({
   reducer: {
     books: bookReducer,
-    categories: categoriesReducer,
-    apiBook: apiBookReducer,
+    categories: categoriesReducer,  
   },
 });
 

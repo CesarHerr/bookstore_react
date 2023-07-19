@@ -4,7 +4,7 @@ import axios from 'axios';
 const initialState = {
   isLoading: false,
   books: [],
-  error: '',
+  error: undefined,
 };
 
 const fetchBooks = createAsyncThunk('books/fetchUsers', async () => {
