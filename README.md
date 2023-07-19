@@ -42,7 +42,11 @@
 ```
 1.- React
 
-2.- Javascript.
+2.- Redux toolkit.
+
+3.- React-redux.
+
+4.- Javascript.
 
 ```
 
@@ -67,14 +71,20 @@
 - Understand how to use medium-fidelity wireframes to create a UI.
 ```
 
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> You can see the live demo of this project 
+
+[live demo](https://bookstore-react-9mcq.onrender.com) 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -169,7 +179,6 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- Use Redux in React components.
 - Connect to API.
 - Styling.
 
