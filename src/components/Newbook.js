@@ -26,7 +26,7 @@ function NewBook() {
         author: newAuthor,
         category: 'Fiction',
       };
-     dispatch(add(newBook));
+      dispatch(add(newBook));
       setNewTitle('');
       setNewAuthor('');
     }
