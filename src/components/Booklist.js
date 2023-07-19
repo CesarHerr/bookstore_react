@@ -1,5 +1,4 @@
 import { useSelector } from 'react-redux';
-// import { add, remove } from '../redux/books/booksSlice';
 import Book from './Book';
 
 function BookList() {
