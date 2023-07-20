@@ -1,28 +1,15 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import Book from './Book';
-import { fetchBooks } from '../redux/apiBook/apiBookSlice';
+import { fetchBooks } from '../redux/books/booksSlice';
 
 function BookList() {
   const dispatch = useDispatch();
-  const { books, isLoading, error } = useSelector((state) => state.books);
+  const { books } = useSelector((state) => state.books);
 
   useEffect(() => {
     dispatch(fetchBooks());
   }, [dispatch]);
-
-  if (isLoading) {
-    return <p>Loading...</p>;
-  }
-
-  if (error) {
-    return (
-      <p>
-        Error:
-        {error}
-      </p>
-    );
-  }
 
   return (
     <>
@@ -35,10 +22,11 @@ function BookList() {
               name={book.title}
               author={book.author}
               categories={book.category}
-              index={index}
+              id={Object.keys(books)[index]}
             />
           ))}
       </ul>
+      ,
     </>
   );
 }
