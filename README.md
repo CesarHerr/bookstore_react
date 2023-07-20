@@ -179,7 +179,6 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- Connect to API.
 - Styling.
 
 
