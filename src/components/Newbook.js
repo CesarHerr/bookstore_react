@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { add } from '../redux/books/booksSlice';
+import { createBook } from '../redux/books/booksSlice';
 
 function NewBook() {
   const [newTitle, setNewTitle] = useState('');
@@ -26,7 +26,8 @@ function NewBook() {
         author: newAuthor,
         category: 'Fiction',
       };
-      dispatch(add(newBook));
+      dispatch(createBook(newBook));
+
       setNewTitle('');
       setNewAuthor('');
     }
