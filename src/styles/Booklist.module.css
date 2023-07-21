@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 .booksList {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  place-items: center;
   background-color: #FBFAFB;
   border-bottom: 1px solid #E9E8E9;
   padding-bottom: 2.3rem;
+}
+@media screen and (max-width: 768px) {
+  .booksList {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 }/*# sourceMappingURL=Booklist.module.css.map */

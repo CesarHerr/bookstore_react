@@ -23,27 +23,12 @@ body {
   min-height: 100vh;
   font-size: 100%;
   font-family: 'Roboto Slab', sans-serif;
-  color: #272a31;
-}
-
-img {
-  max-width: 100%;
-  width: 100%;
-  display: block;
-}
-
-hr {
-  display: inline;
-  position: relative;
-  padding: 0 30px;
-  margin: 1em 0;
-  border-bottom: solid 2px #ec5242;
+  
 }
 
 a {
   display: block;
   text-decoration: none;
-  font-size: inherit;
 }
 
 a:hover, a:active {
@@ -52,17 +37,6 @@ a:hover, a:active {
 
 li {
   list-style-type: none;
-}
-
-h1,
-h2,
-h3,
-p,
-a {
-  font-weight: inherit;
-  font-style: inherit;
-  text-decoration: none;
-  color: inherit;
 }
 
 .appContainer {

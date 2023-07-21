@@ -1,0 +1,1 @@
+{"version":3,"sources":["Book.module.scss","Book.module.css","_mixins.scss"],"names":[],"mappings":"AACQ,oKAAA;AAER;EACE,YAAA;EACA,iBAAA;EACA,sBAAA;EACA,wCAAA;EACA,kBAAA;EACA,yBAAA;EACA,yBAAA;ACDF;ADEE;EACE,qCAAA;EEXF,cFYgB;EEXhB,iBFWyB;EEVzB,mBFU+B;EAC7B,YAAA;ACEJ;ADDE;EEdA,WFegB;EEdhB,mBFcsB;EEbtB,mBFa8B;ACKhC","file":"Book.module.css"}
