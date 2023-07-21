@@ -3,7 +3,7 @@ import styles from '../styles/Navbar.module.scss';
 
 function Navbar() {
   return (
-    <header>
+    <header className={styles.header}>
       <nav className={styles.navBar}>
         <h1>Bookstore CMS</h1>
         <ul className={styles.navBar__ul}>
@@ -17,6 +17,9 @@ function Navbar() {
           </li>
         </ul>
       </nav>
+      <div className={styles.socialIcon}>
+        <i className="fa-solid fa-user-large" />
+      </div>
     </header>
   );
 }
