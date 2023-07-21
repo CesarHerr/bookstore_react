@@ -22,14 +22,14 @@ function Book({
             <button type="button">Edit</button>
           </div>
         </li>
-        <li />
-        <div className={styles['booksList__list--progress']} />
-        <span>
-          <h3>64%</h3>
-          <p>Completed</p>
-        </span>
-        <li />
-        <li>
+        <li className={styles['booksList__list--progress']}>
+          <div className={styles.progressCircle} />
+          <span>
+            <h3>64%</h3>
+            <p>Completed</p>
+          </span>
+        </li>
+        <li className={styles.chapterInfo}>
           <span>CURRENT CHAPTER</span>
           <h2>Chapter 17</h2>
           <button type="button">UPDATE PROGRESS</button>

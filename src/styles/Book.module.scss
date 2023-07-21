@@ -27,7 +27,7 @@
     button {
       @include font(#4386bf, 300, 0.875rem);
       background: none;
-      border-right: 1px solid  #E8E9E9;
+      border-right: 1px solid #e8e9e9;
       padding-right: 1rem;
       &:nth-child(3) {
         border: none;
@@ -39,12 +39,47 @@
     @include flexible(row, nowrap, space-between, center);
   }
   &--progress {
-  border: solid 5px #307bbe;
-  border-left-color: #e8e8e8;
-  border-radius: 50%;
-  width: 4.25rem;
-  height: 4.25rem;
-  border-style: solid;
-  border-width: 5px;  
+    @include flexible(row, nowrap, space-between, center);
+    width: 15%;
+    min-width: 170px;
+    font-family: 'Montserrat', sans-serif;
+
+    .progressCircle {
+      border: solid 5px #307bbe;
+      border-left-color: #e8e8e8;
+      border-radius: 50%;
+      width: 4.25rem;
+      height: 4.25rem;
+      border-style: solid;
+      border-width: 5px;
+    }
+    h3 {
+      @include font(#121212, normal, 2rem);
+    }
+    p {
+      @include font(#9c9c9c, normal, 0.875rem);
+    }
+  }
+
+  .chapterInfo {
+    @include flexible(column, nowrap, center, flex-start);
+    width: 11.5rem;
+    
+    span {
+      @include font(#121212, 300, 0.813rem);
+      opacity: 0.5;
+    }
+    h2 {
+      @include font(#121212, 300, 1rem);
+    }
+    button {
+      @include font(#ffffff, 300, 0.813rem);
+      width: 11.5rem;
+      height: 2.063rem;
+      margin: 0.75rem 0 0.563rem 0;
+      padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+      border-radius: 3px;
+      background-color: #0290ff;
+    }
   }
 }

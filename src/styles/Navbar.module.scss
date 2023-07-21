@@ -7,6 +7,7 @@
   height: 5.938rem;
   margin-bottom: 2rem;
   padding-right: 5rem;
+  border-bottom: 1px solid #ededec;
 
   .navBar {
     @include flexible(row, nowrap, flex-start, center);
