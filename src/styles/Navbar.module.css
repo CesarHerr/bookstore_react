@@ -6,9 +6,8 @@
   align-items: center;
   width: 87.5rem;
   height: 5.938rem;
-  margin: 0 0 2.375rem;
   padding: 1.438rem 6.188rem 1.688rem 6.25rem;
-  background-color: var(--white-two);
+  background-color: #ffffff;
   font-family: "Montserrat", sans-serif;
   border-bottom: 1px solid #EDEDEC;
 }

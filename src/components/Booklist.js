@@ -2,6 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import Book from './Book';
 import { fetchBooks } from '../redux/books/booksSlice';
+import styles from '../styles/Booklist.module.scss';
 
 function BookList() {
   const dispatch = useDispatch();
@@ -13,7 +14,7 @@ function BookList() {
 
   return (
     <>
-      <ul>
+      <ul className={styles.booksList}>
         {Object.values(books)
           .flat()
           .map((book, index) => (
