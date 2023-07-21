@@ -1,15 +1,16 @@
 import { Link } from 'react-router-dom';
+import styles from '../styles/Navbar.module.scss';
 
 function Navbar() {
   return (
-    <nav>
-      <h1>Bookstore</h1>
-      <ul>
+    <nav className={styles.header}>
+      <h1>Bookstore CMS</h1>
+      <ul className={styles.header__ul}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">BOOKS</Link>
         </li>
         <li>
-          <Link to="categories">Categories</Link>
+          <Link className={styles['header__ul--category']} to="categories">CATEGORIES</Link>
         </li>
       </ul>
     </nav>
