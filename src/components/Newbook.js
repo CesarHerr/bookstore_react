@@ -35,21 +35,29 @@ function NewBook() {
 
   return (
     <>
+      <h2>ADD NEW BOOK</h2>
       <form onSubmit={handleSubmit}>
-        <input
-          onChange={getTitle}
-          type="text"
-          placeholder="Book Title"
-          value={newTitle}
-          required
-        />
-        <input
-          onChange={getAuthor}
-          type="text"
-          placeholder="Author"
-          value={newAuthor}
-          required
-        />
+        <label htmlFor="bookTitle" aria-label="Add a book name">
+          <input
+            id="bookTitle"
+            name="bookTitle"
+            onChange={getTitle}
+            type="text"
+            placeholder="Book Title"
+            value={newTitle}
+            required
+          />
+        </label>
+        <label htmlFor="authorName" aria-label="Add an author">
+          <input
+            id="authorName"
+            onChange={getAuthor}
+            type="text"
+            placeholder="Author"
+            value={newAuthor}
+            required
+          />
+        </label>
         <button type="submit">ADD BOOK</button>
       </form>
     </>

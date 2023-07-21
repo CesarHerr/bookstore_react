@@ -13,22 +13,19 @@ function BookList() {
   }, [dispatch]);
 
   return (
-    <>
-      <ul className={styles.booksList}>
-        {Object.values(books)
-          .flat()
-          .map((book, index) => (
-            <Book
-              key={Object.keys(books)[index]}
-              name={book.title}
-              author={book.author}
-              categories={book.category}
-              id={Object.keys(books)[index]}
-            />
-          ))}
-      </ul>
-      ,
-    </>
+    <ul className={styles.booksList}>
+      {Object.values(books)
+        .flat()
+        .map((book, index) => (
+          <Book
+            key={Object.keys(books)[index]}
+            name={book.title}
+            author={book.author}
+            categories={book.category}
+            id={Object.keys(books)[index]}
+          />
+        ))}
+    </ul>
   );
 }
 

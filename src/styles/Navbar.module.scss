@@ -1,7 +1,7 @@
 @import '_mixins';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 
-.header {
+.navBar {
   @include flexible(row, nowrap, flex-start, center);
   width: 87.5rem;
   height: 5.938rem; 

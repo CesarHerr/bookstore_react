@@ -3,10 +3,10 @@ import Navbar from '../components/Navbar';
 
 function Root() {
   return (
-    <>
+    <section className="panelBook">
       <Navbar />
       <Outlet />
-    </>
+    </section>
   );
 }
 
