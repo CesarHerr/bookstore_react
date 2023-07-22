@@ -3,7 +3,7 @@ import Root from './routes/root';
 import ErrorPage from './routes/error-page';
 import Home from './components/Home';
 import Categories from './components/Categories';
-import './index.css';
+import './styles/index.scss';
 
 const router = createBrowserRouter([
   {

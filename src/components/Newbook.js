@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { createBook } from '../redux/books/booksSlice';
+import styles from '../styles/NewBook.module.scss';
 
 function NewBook() {
   const [newTitle, setNewTitle] = useState('');
@@ -35,22 +36,33 @@ function NewBook() {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <input
-          onChange={getTitle}
-          type="text"
-          placeholder="Book Title"
-          value={newTitle}
-          required
-        />
-        <input
-          onChange={getAuthor}
-          type="text"
-          placeholder="Author"
-          value={newAuthor}
-          required
-        />
-        <button type="submit">ADD BOOK</button>
+
+      <form className={styles.form} onSubmit={handleSubmit}>
+        <h2>ADD NEW BOOK</h2>
+        <label htmlFor="bookTitle" aria-label="Add a book name">
+          <input
+            className={styles.bookName}
+            id="bookTitle"
+            name="bookTitle"
+            onChange={getTitle}
+            type="text"
+            placeholder="Book Title"
+            value={newTitle}
+            required
+          />
+        </label>
+        <label htmlFor="authorName" aria-label="Add an author">
+          <input
+            className={styles.bookAuthor}
+            id="authorName"
+            onChange={getAuthor}
+            type="text"
+            placeholder="Author"
+            value={newAuthor}
+            required
+          />
+        </label>
+        <button className={styles.submitBtn} type="submit">ADD BOOK</button>
       </form>
     </>
   );

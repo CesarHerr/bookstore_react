@@ -32,7 +32,7 @@
 # 📖 [Bookstore] <a name="about-project"></a>
 
 
-**[Bookstore]** This project will lay the foundations for a Bookstore website. 
+**[Bookstore]** In this project lays the foundations for a Bookstore website. 
 
 
  
@@ -47,6 +47,8 @@
 3.- React-redux.
 
 4.- Javascript.
+
+5.- Sass.
 
 ```
 
@@ -179,7 +181,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- Styling.
+- Complete Categories functionality.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -3,10 +3,10 @@ import NewBook from './Newbook';
 
 function Home() {
   return (
-    <>
+    <main>
       <BookList />
       <NewBook />
-    </>
+    </main>
   );
 }
 

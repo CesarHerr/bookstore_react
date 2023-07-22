@@ -1,0 +1,11 @@
+@import '_mixins';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.category {
+  text-align: center;
+
+  img {
+    width: 50%;
+    margin-bottom: 10rem;
+  }
+}
