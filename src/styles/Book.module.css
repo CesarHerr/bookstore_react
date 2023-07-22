@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap");
+
 .booksList__list {
   width: 80%;
   height: 10.625rem;
@@ -8,6 +9,7 @@
   border: solid 1px #e9e9e9;
   background-color: #fff;
 }
+
 .booksList__list span {
   font-family: "Montserrat", sans-serif;
   color: #8a8b8b;
@@ -15,16 +17,19 @@
   font-size: 0.875rem;
   opacity: 0.5;
 }
+
 .booksList__list h2 {
   color: #121212;
   font-weight: 700;
   font-size: 1.375rem;
 }
+
 .booksList__list p {
   color: #4386bf;
   font-weight: 300;
   font-size: 0.875rem;
 }
+
 .booksList__list button {
   color: #4386bf;
   font-weight: 300;
@@ -33,13 +38,16 @@
   border-right: 1px solid #e8e9e9;
   padding-right: 1rem;
 }
+
 .booksList__list button:nth-child(3) {
   border: none;
   padding-right: 0;
 }
+
 .booksList__list button:nth-child(2) {
   cursor: pointer;
 }
+
 .booksList__list .chapterInfo {
   display: flex;
   flex-flow: column nowrap;
@@ -47,19 +55,22 @@
   align-items: flex-start;
   width: 11.5rem;
 }
+
 .booksList__list .chapterInfo span {
   color: #121212;
   font-weight: 300;
   font-size: 0.813rem;
   opacity: 0.5;
 }
+
 .booksList__list .chapterInfo h2 {
   color: #121212;
   font-weight: 300;
   font-size: 1rem;
 }
+
 .booksList__list .chapterInfo button {
-  color: #ffffff;
+  color: #fff;
   font-weight: 300;
   font-size: 0.813rem;
   width: 11.5rem;
@@ -69,6 +80,7 @@
   border-radius: 3px;
   background-color: #0290ff;
 }
+
 .booksList__list div {
   display: flex;
   flex-flow: row nowrap;
@@ -77,12 +89,14 @@
   width: 14rem;
   margin-top: 1.3rem;
 }
+
 .booksList__list--group {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
+
 .booksList__list--progress {
   display: flex;
   flex-flow: row nowrap;
@@ -92,6 +106,7 @@
   min-width: 170px;
   font-family: "Montserrat", sans-serif;
 }
+
 .booksList__list--progress .progressCircle {
   border: solid 5px #307bbe;
   border-left-color: #e8e8e8;
@@ -101,13 +116,15 @@
   border-style: solid;
   border-width: 5px;
 }
+
 .booksList__list--progress h3 {
   color: #121212;
   font-weight: normal;
   font-size: 2rem;
 }
+
 .booksList__list--progress p {
   color: #9c9c9c;
   font-weight: normal;
   font-size: 0.875rem;
-}/*# sourceMappingURL=Book.module.css.map */
+}

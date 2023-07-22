@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
 .header {
   display: flex;
   flex-flow: row nowrap;
@@ -10,6 +11,7 @@
   padding-right: 5rem;
   border-bottom: 1px solid #ededec;
 }
+
 .header .navBar {
   display: flex;
   flex-flow: row nowrap;
@@ -22,12 +24,14 @@
   font-family: "Montserrat", sans-serif;
   border-bottom: 1px solid #ededec;
 }
+
 .header .navBar h1 {
   color: #0291fe;
   font-weight: bold;
   font-size: 1.875rem;
   margin: 0.375rem 2.938rem 0.125rem 0;
 }
+
 .header .navBar__ul {
   width: 11.8rem;
   display: flex;
@@ -40,9 +44,11 @@
   margin: 1.125rem 2.563rem 0.688rem 0;
   letter-spacing: 1.9px;
 }
+
 .header .navBar__ul--category {
   color: #979796;
 }
+
 .header .socialIcon {
   border: solid 2px #ededec;
   border-radius: 50%;
@@ -51,6 +57,7 @@
   border-style: solid;
   border-width: 2px;
 }
+
 .header .socialIcon i {
   color: #0291fe;
   font-weight: bold;
@@ -58,4 +65,4 @@
   display: grid;
   place-items: center;
   margin-top: 1rem;
-}/*# sourceMappingURL=Navbar.module.css.map */
+}

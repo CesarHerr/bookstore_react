@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
 .booksList {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -7,9 +8,10 @@
   background-color: #fbfafb;
   padding-bottom: 2.3rem;
 }
+
 @media screen and (max-width: 768px) {
   .booksList {
     grid-template-columns: 1fr;
     gap: 0;
   }
-}/*# sourceMappingURL=Booklist.module.css.map */
+}

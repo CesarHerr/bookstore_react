@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap");
+
 *,
 *::before,
 *::after {
@@ -50,4 +51,4 @@ li {
   height: 100%;
   display: grid;
   place-items: center;
-}/*# sourceMappingURL=index.css.map */
+}
