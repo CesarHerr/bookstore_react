@@ -31,8 +31,9 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:active {
+a:hover, a:active, a:visited {
   text-decoration: none;
+  color: #121212;
 }
 
 li {
@@ -42,15 +43,18 @@ li {
 
 .panelBook {  
   width: 87.5rem;
+  height: 90%;
   border-radius: 4px;
-  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
-  background-color: #FBFAFB;
+  -webkit-box-shadow: 26px 34px 84px 1px rgba(0,0,0,0.49);
+-moz-box-shadow: 26px 34px 84px 1px rgba(0,0,0,0.49);
+box-shadow: 26px 34px 84px 1px rgba(0,0,0,0.49);
+  background-color: #FBFAFB; 
 }
 
 #root {
   width: 100vw;
-  background-color: #F2F5F8;
+  height: 100%;
   display: grid;
   place-items: center;
-  height: 100vh;
+  
 }
